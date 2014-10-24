@@ -9,6 +9,11 @@
 class Books {
 
     private $title;
+    private $author;
+
+    function __construct($title='N/A', $author='N/A') {
+
+    }
 
     function setTitle($title){
         $this->title = $title;
@@ -16,6 +21,14 @@ class Books {
 
     function getTitle() {
         return $this->title;
+    }
+
+    function setAuthor($author) {
+        $this->author = $author;
+    }
+
+    function getAuthor(){
+        return $this->author;
     }
 
 } 
