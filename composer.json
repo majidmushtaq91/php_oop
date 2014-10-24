@@ -1,0 +1,13 @@
+{
+    "name": "majid/php_oop",
+    "description": "Object Oriented Programming n PHP",
+    "require": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "authors": [
+        {
+            "name": "Majid Mushtaq",
+            "email": "majid.mushtaq@gaditek.com"
+        }
+    ]
+}
