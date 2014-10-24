@@ -2,6 +2,9 @@
     "name": "majid/php_oop",
     "description": "Object Oriented Programming n PHP",
     "require": {
+
+    },
+    "require-dev": {
         "phpunit/phpunit": "~4.3"
     },
     "authors": [

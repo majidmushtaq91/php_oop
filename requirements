@@ -1,0 +1,27 @@
+1. As auser I want to be able to search for a book by title or author. 
+
+2. As an administrator I want to be able to introduce books in the library. 
+
+3. As ar I want to be able to see the cover, first a last pages and two other preview pagesi of a book.use S. 
+
+4. As an administrator I want be able to be authenticated and sure only I can do changes to the,. library. 
+
+5. As an administrator I want to be able to upload pictures of the books, cover, first & last pages and some preview. 
+
+6. As a user I want to be able to read the technical details about the book, like editor, publishing date, etc. 
+
+7. As an administrator I want to be able to publish details about the book or the whole book if,. copyright permits. 
+
+8. As a user I want to be able to browse the list of books the library has, maybe filter the - list by some categories like genre, farm factor, maybe age groups. 
+
+9. As an administrator I want to be able to specify extra information about the books that helps me locate them, like location, genre, form factor, and so on. 
+The Technical Reasoning 
+
+
+A. Take points 1 & 2 and create a proof of concept / prototype application 
+- starting with pgint 2 will help is define our basic structure for a book and a library 
+- point 1 will for,. us to produce a data acquisition / retrieval logic 
+- point I will force us to produce a presentations logic - point 1 will force as to produce a search module 
+
+
+B. Take points 3 & 5 and add the functionality to our application 
