@@ -12,23 +12,28 @@ class Books {
     private $author;
 
     function __construct($title='N/A', $author='N/A') {
-
-    }
-
-    function setTitle($title){
         $this->title = $title;
-    }
-
-    function getTitle() {
-        return $this->title;
-    }
-
-    function setAuthor($author) {
         $this->author = $author;
     }
 
-    function getAuthor(){
+    public function __destruct(){
+        echo 'Destroyed';
+    }
+
+    public function getAuthor() {
         return $this->author;
+    }
+
+    public function setAuthor($author){
+        $this->author = $author;
+    }
+
+    public function getTitle() {
+        return $this->title;
+    }
+
+    public function setTitle($title){
+        $this->title = $title;
     }
 
 } 

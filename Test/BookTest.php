@@ -17,7 +17,7 @@ class BookTest extends PHPUnit_Framework_TestCase {
         $title2 = 'The Book for Java';
         $book2->setTitle($title2);
 
-       // $this->assertEquals($title2, $book2->getTitle());
+       $this->assertEquals($title2, $book2->getTitle());
 
     }
 
@@ -26,6 +26,7 @@ class BookTest extends PHPUnit_Framework_TestCase {
         $title = 'The Title';
         $author = 'Majid Khan';
         $book = new Books($title, $author);
+
         $this->assertEquals($title, $book->getTitle());
         $this->assertEquals($author, $book->getAuthor());
     }
